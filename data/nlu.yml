@@ -1,0 +1,79 @@
+version: "3.1"
+
+nlu:
+  - intent: saudacao
+    examples: |
+      - Oi
+      - Ola
+      - Ajuda
+      - duvida
+      - bom dia
+      - boa tarde
+      - ajuda
+      - ei
+      - boa noite
+
+  - intent: tchau
+    examples: |
+      - Tchau
+      - Até mais
+      - sair
+
+  - intent: afirmacao
+    examples: |
+      - Sim
+      - Exatamente
+      - Correto
+
+  - intent: iamabot
+    examples: |
+      - voce eh um robo?
+      - voce eh humano?
+      - eu estou falando com um robo?
+      - eu estou falando com um humano?
+
+  - intent: significado_sgf
+    examples: |
+      - oq significa
+      - oq significa a sigla
+      - oq é o sgf
+
+  ##seção de perguntas gerais sobre a vale
+
+  - intent: oq_vale_faz
+    examples: |
+      - oq a vale faz
+      - quem eh a vale?
+      - que tipo de empresa eh a vale?
+
+  - intent: produtos_vale
+    examples: |
+      - quais são os produtos da vale?
+      - oq a vale produz?
+      - oq a vale transporta
+      - com oq a vale trabalha?
+
+  - intent: fundacao_vale
+    examples: |
+      - quando foi fundada?
+      - quando nasceu a vale?
+      - quantos anos tem a vale?
+
+  - intent: diretor_vale
+    examples: |
+      - quem é o diretor da vale?
+      - quem comanda a vale?
+      - quem é o presidente da vale?
+
+  - intent: transporte_produtos
+    examples: |
+      - como  a vale transporta seus produtos? 
+      - principais modos de transporte que a vale utiliza?
+
+  - intent: ajudo_mais
+    examples: |
+      - entendi 
+      - obrigada
+      - valeu
+
+    #perguntas sobre a ferrovia

@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - tchau
+  - iamabot
+  - afirmacao
+  - significado_sgf
+  - oq_vale_faz
+  - produtos_vale
+  - fundacao_vale
+  - diretor_vale
+  - transporte_produtos
+  - ajudo_mais
+
+responses:
+  utter_saudacao:
+    - text: "Oi! No que posso te ajudar?"
+
+  utter_tchau:
+    - text: "Te vejo mais tarde :)"
+
+  utter_iamabot:
+    - text: "Eu sou o SGF BOT, Inteligência artificial da Vale em desenvolvimento ."
+
+  utter_afirmacao:
+    - text: "Certo :)"
+
+  utter_significado_sgf:
+    - text: "SGF significa Sistema de Gerenciamento Ferroviário.\nEle é o software responsável por monitorar, gerenciar e realizar \ncomunicação entre a ferrovia e o centro de controle "
+
+  utter_oq_vale_faz:
+    - text: "A Vale é uma das maiores mineradoras do Brasil e do mundo.\n Além da mineração, também atua em \nlogística, energia e siderurgia"
+
+  utter_produtos_vale:
+    - text: "Minério de Ferro: Nós somos uma das maiores produtoras de minério de ferro do mundo.\n Esse minério é essencial para a fabricação de aço e é usado em indústrias \ncomo construção civil, automobilística e infraestrutura.\nNíquel: A Vale também é uma grande produtora de níquel, que é utilizado em baterias, ligas metálicas e indústria química.\nCobre: O cobre é fundamental para a eletrificação e é usado em fios elétricos, componentes eletrônicos e sistemas de energia renovável."
+
+  utter_fundacao_vale:
+    - text: "Nós nascemos em 1º de junho de 1942. Somos uma das maiores empresas de mineração do mundo e\n tem uma presença significativa em diversos países. "
+
+  utter_diretor_vale:
+    - text: "O atual presidente da Vale é Eduardo Bartolomeo1. Ele lidera a empresa e desempenha um papel fundamental na gestão e direção das operações."
+
+  utter_transporte_produtos:
+    - text: "A Vale possui uma rede logística abrangente que integra minas, ferrovias, portos e navios em todo o mundo.\n Essa logística eficiente garante o transporte seguro e ágil de seus produtos."
+
+  utter_ajudo_mais:
+    - text: "Te ajudo em algo mais?"
+
+  #utter_cheer_up:
+  #- text: "Here is something to cheer you up:"
+  # image: "https://i.imgur.com/nGF1K8f.jpg" -- TENTAR EXIBIR IMAGENS DURANTE A CONVERSA
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
