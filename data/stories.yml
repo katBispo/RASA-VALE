@@ -1,12 +1,32 @@
 version: "3.1"
 
 stories:
-  - story: cumprimentos
+  - story: Saudação e Informações Gerais sobre a Vale
     steps:
       - intent: saudacao
       - action: utter_saudacao
+      - intent: oq_vale_faz
+      - action: utter_oq_vale_faz
+      - intent: ajudo_mais
+      - action: utter_ajudo_mais
 
-  - story: cumprimentos
+  - story: Significado de SGF
     steps:
-      - intent: saudacao
-      - action: utter_saudacao
+      - intent: significado_sgf
+      - action: utter_significado_sgf
+      - intent: ajudo_mais
+      - action: utter_ajudo_mais
+
+  - story: Informações sobre Transporte de Produtos pela Vale
+    steps:
+      - intent: transporte_produtos
+      - action: utter_transporte_produtos
+      - intent: ajudo_mais
+      - action: utter_ajudo_mais
+
+  - story: Despedida e Oferecimento de Ajuda Adicional
+    steps:
+      - intent: tchau
+      - action: utter_tchau
+      - intent: ajudo_mais
+      - action: utter_ajudo_mais
