@@ -34,8 +34,8 @@ nlu:
 
   - intent: significado_sgf
     examples: |
-      - oq significa
-      - oq significa a sigla
+      - oq é SGF
+      - oq significa a sigla SGF
       - oq é o sgf
 
   ##seção de perguntas gerais sobre a vale

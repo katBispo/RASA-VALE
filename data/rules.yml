@@ -1,0 +1,9 @@
+rules:
+  - rule: Responder a intenção "tchau" com uma mensagem de despedida
+    steps:
+      - intent: tchau
+      - action: utter_tchau
+
+  - rule: Responder oferecendo mais ajuda
+      - intent: ajudo_mais
+      - action: utter_ajudo_mais
