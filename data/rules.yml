@@ -5,5 +5,6 @@ rules:
       - action: utter_tchau
 
   - rule: Responder oferecendo mais ajuda
+    steps:
       - intent: ajudo_mais
       - action: utter_ajudo_mais

@@ -76,4 +76,11 @@ nlu:
       - obrigada
       - valeu
 
+  - intent: sobre_oq_responde
+    examples: |
+      - Sobre oq vc sabe
+      - oq vc responde
+      - oq vc conhece
+      
+        
     #perguntas sobre a ferrovia

@@ -25,5 +25,10 @@ stories:
       - intent: tchau
       - action: utter_tchau
 
+  - story: Oque o bot conhece
+    steps:
+      - intent: sobre_oq_responde
+      - action: utter_sobre_oq_responde
+
 
 

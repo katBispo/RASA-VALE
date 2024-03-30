@@ -12,6 +12,7 @@ intents:
   - diretor_vale
   - transporte_produtos
   - ajudo_mais
+  - sobre_oq_responde
 
 responses:
   utter_saudacao:
@@ -46,6 +47,9 @@ responses:
 
   utter_ajudo_mais:
     - text: "Te ajudo em algo mais?"
+
+  utter_sobre_oq_responde:
+    - text: "Apesar de estar em constante desenvolvimento, eu respondo perguntas sobre curiosidades da ferrovia EFC e da vale de maneira em geral :)"
 
   #utter_cheer_up:
   #- text: "Here is something to cheer you up:"
