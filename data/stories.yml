@@ -46,7 +46,7 @@ stories:
   - story: fundação vale
     steps:
       - intent: fundacao_vale
-      - action: utter_ fundacao_vale
+      - action: utter_fundacao_vale
 
   - story: diretor vale
     steps:
