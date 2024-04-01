@@ -8,18 +8,16 @@ stories:
       - intent: oq_vale_faz
       - action: utter_oq_vale_faz
 
-
   - story: Significado de SGF
     steps:
       - intent: significado_sgf
       - action: utter_significado_sgf
 
-
   - story: Informações sobre Transporte de Produtos pela Vale
     steps:
       - intent: transporte_produtos
       - action: utter_transporte_produtos
-    
+
   - story: Despedida e Oferecimento de Ajuda Adicional
     steps:
       - intent: tchau
@@ -30,5 +28,32 @@ stories:
       - intent: sobre_oq_responde
       - action: utter_sobre_oq_responde
 
+  - story: Vc eh um robo
+    steps:
+      - intent: iambot
+      - action: utter_iambot
 
+  - story: vale trabalha
+    steps:
+      - intent: oq_vale_faz
+      - action: utter_oq_vale_faz
 
+  - story: produtos vale
+    steps:
+      - intent: produtos_vale
+      - action: utter_produtos_vale
+
+  - story: fundação vale
+    steps:
+      - intent: fundacao_vale
+      - action: utter_ fundacao_vale
+
+  - story: diretor vale
+    steps:
+      - intent: diretor_vale
+      - action: utter_diretor_vale
+
+  - story: sobre oq responde
+    steps:
+      - intent: sobre_oq_responde
+      - action: utter_sobre_oq_responde
