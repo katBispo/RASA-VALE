@@ -30,7 +30,7 @@ stories:
 
   - story: Vc eh um robo
     steps:
-      - intent: iambot
+      - intent: iamabot
       - action: utter_iambot
 
   - story: vale trabalha
